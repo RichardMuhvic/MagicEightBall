@@ -45,7 +45,8 @@ header img{
     border-radius: 0px;
     text-decoration: none;
     height: 50px;
-    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #eightball{
@@ -60,6 +61,26 @@ header img{
     border-radius: 50%;
     box-shadow:0px 0px 40px rgba(0, 0, 0, 0.37);
 }
+#eightball:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+@keyframes shake{
+    0% {transform: translate(1px, 1px)}
+    10% {transform: translate(-1px, -2px)}
+    20% {transform: translate(-3px, 0px)}
+    30% {transform: translate(3px, 2px)}
+    40% {transform: translate(1px, -1px)}
+    50% {transform: translate(-1px, 2px)}
+    60% {transform: translate(-3px, 1px)}
+    70% {transform: translate(3px, 1px)}
+    80% {transform: translate(-1px, -1px)}
+    90% {transform: translate(1px, 2px)}
+    100% {transform: translate(1px, -2px)}
+}
+
+
 .white_circle{
     position: absolute;
     z-index: 5;
@@ -78,17 +99,12 @@ header img{
 .eight:hover{
     cursor: pointer;
 }
-/*#response{
-    position: absolute;
-    z-index: 10;
-    display: flex;
-    background-color: chartreuse;
-    width: 150%;
-    height: 150%;
-    border-radius: 50%;
-    color: darkblue;
-    font-size: 2em;
-}*/
+#response{
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+}
 
 footer{
     justify-content: end;
