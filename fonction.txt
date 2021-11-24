@@ -1,0 +1,3 @@
+MAGIC EIGHT BALL
+
+Quand on clique sur le bouton, la boule tremble, puis le message apparaît
