@@ -21,19 +21,3 @@ window.onload = function() {
         }
     })
 };
-
-/*let randomResponse = responses[Math.floor(Math.random()*responses.length)];
-console.log(randomResponse)*/
-
-/*let button = document.getElementById("button")
-button.addEventListener("click", event => {
-    button.innerHTML = event.randomResponse;
-})*/
-
-
-/*let newDiv = document.createElement("div");
-newDiv.innerHTML= `<div id="response"></div>`;
-console.log(newDiv)
-
-let element = document.getElementsByClassName("ball");
-element.append(newDiv);*/
